@@ -12,8 +12,8 @@ time        = np.arange(0, 10, 0.1);
  
 
 # Amplitude of the sine wave is sine of a variable like time
-
-amplitude   = np.sin(time)
+frequency = 2
+amplitude   = np.sin(2*np.pi * frequency * time)
 
  
 
@@ -37,7 +37,7 @@ plot.xlabel('Time')
 
 # Give y axis label for the sine wave plot
 
-plot.ylabel('Amplitude = sin(time)')
+plot.ylabel('Amplitude = sin(2*pi*frequency*time)')
 
  
 
